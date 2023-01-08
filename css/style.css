@@ -1,3 +1,6 @@
+  html {
+    overflow-x: hidden;
+  }
 * {
     padding: 0;
     margin: 0;
@@ -1125,7 +1128,7 @@
   .footer_container {
     padding: 0 15px;
     margin: auto;
-    width: 88%;
+    width: 62%;
   }
   
   
