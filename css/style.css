@@ -4,6 +4,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box
   }
   
   ul {
@@ -384,7 +385,7 @@
   }
   @media (min-width: 641px) and (max-width: 1199px) {
     .trends__card {
-      width: 49%;
+      width: calc(50% - 2px);
     }
   }
   @media (min-width: 360px) and (max-width: 640px) {
@@ -536,7 +537,7 @@
   @media (min-width: 360px) and (max-width: 640px) {
     .card {
       flex-wrap: wrap;
-      width: 390px;
+      min-width: 164%;
     }
   }
   .card:nth-child(n + 2) {
@@ -983,7 +984,7 @@
       padding: 0;
       margin: 0 auto;
       width: 768px;
-      gap: 0;
+      gap: 5%;
       justify-content: flex-start;
 
     }
@@ -1026,12 +1027,12 @@
   }
   @media (min-width: 641px) and (max-width: 1199px){
     .product__card__img {
-      width: 94%;
+      width: 100%;
     }
   }
   @media (min-width: 360px) and (max-width: 640px) {
     .product__card__img{
-      width: 88%;
+      width: 100%;
     }
   }
   @media (min-width: 360px) and (max-width: 640px) {
@@ -1056,7 +1057,7 @@
     }
     @media (min-width: 360px) and (max-width: 640px) {
       .product__card__text{
-        width: 101%;
+        width: 100%;
       }
     }
 
@@ -1093,7 +1094,7 @@
     }
     .button__count {
       width: 120px;
-      height: 24px;
+      height: 48px;
       background-color: #b59f5b;
       text-align: center;
       padding-top: 12px;
@@ -1128,7 +1129,7 @@
   .footer_container {
     padding: 0 15px;
     margin: auto;
-    width: 62%;
+    width: 100%;
   }
   
   
