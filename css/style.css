@@ -1129,7 +1129,17 @@
   .footer_container {
     padding: 0 15px;
     margin: auto;
-    width: 100%;
+    width: 1200px;
+  }
+  @media (min-width: 641px) and (max-width: 1199px){
+    .footer_container {
+      width: 100%;
+    }
+  }
+  @media (min-width: 360px) and (max-width: 640px) {
+    .footer_container{
+      width: 100%;
+    }
   }
   
   
