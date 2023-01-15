@@ -803,7 +803,7 @@
   @media (min-width: 360px) and (max-width: 640px) {
     
     .mailing_bar {
-      width: 91%;
+      width: 100%;
     }
   }
   
